@@ -7,5 +7,5 @@ uses uData;
 
 
 begin
-;
+writeln('hello, world!');
 end.
