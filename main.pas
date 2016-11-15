@@ -1,4 +1,4 @@
-uses uData;
+uses uData, ufile;
 
 // программа организует запрос авторизации с помощью функции Autentification,
 // затем переходит в режим тестирования (если авторизован рядовой пользователь)
@@ -7,5 +7,6 @@ uses uData;
 
 
 begin
-writeln('hello, world!');
+LoadAll;
+readln;
 end.
